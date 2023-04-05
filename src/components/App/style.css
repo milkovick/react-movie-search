@@ -1,0 +1,46 @@
+.navbar {
+  background: #aa4b6b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #3b8d99,
+    #6b6b83,
+    #aa4b6b
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #3b8d99,
+    #6b6b83,
+    #aa4b6b
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  /* background-color: rgb(118, 25, 118); */
+  padding: 40px 30px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.navbar-tabs {
+  margin: 0 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navbar-tab {
+  color: rgba(255, 255, 255, 0.816);
+  margin: 0 10px;
+  text-decoration: 0;
+}
+
+.navbar-tab h2 {
+  display: inline;
+  padding: 5px 10px;
+}
